@@ -1,0 +1,76 @@
+@import url(grid.css);
+@font-face {
+    font-family: Yekan;
+    src: url('../fonts/Yekan.eot') format('eot'),
+    url('../fonts/Yekan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0; padding: 0;
+    font-family: Yekan;
+    direction: rtl;
+    box-sizing: border-box;
+}
+main{
+    text-align: center;
+}
+a{
+    display: block;
+}
+.main{
+    width: auto;
+    
+}
+.logo{
+    background-color: #eaeaea;
+    height: 130px;
+    margin: 0 auto; padding-top: 50px;
+}
+.mylogo{
+    display: block;
+    border-radius: 150px;
+    width: 150px; height: 150px;
+    margin: 0 auto 32px auto;
+    box-shadow: 0px 0px 6px rgb(0 0 0 / 16%);
+}
+.name{
+ margin: 80px 0 50px;   
+}
+.btn{
+    height: 200px;
+    margin: 12px auto; 
+}
+.link{
+    margin: 10px 30px;
+    padding: 9px;
+    background-color: #5c5c5c;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 16%);
+    cursor: pointer;
+}
+.link:hover{
+    background-color: #ff0000d0;
+}
+.footer{
+    margin: 20px auto;
+    width: 100%;
+}
+.whatsapp{
+    background-color: #4ac959;
+    margin:60px auto; padding: 9px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 16%);
+}
+.whatsapp:hover{
+    background-color: #399143;
+}
+.fab{
+    margin: 0 5px;
+    vertical-align: -1px;
+}
